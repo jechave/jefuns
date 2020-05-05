@@ -1,4 +1,6 @@
 #' turn any matrix into a tibble
+#'
+#' @export
 matrix_to_tibble <- function(m, row_name = "i", col_name = "j", value_name = "mij") {
   result <- m %>%
     as.data.frame() %>%

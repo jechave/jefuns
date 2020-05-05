@@ -1,5 +1,6 @@
 #' Tile plot of a matrix
 #'
+#' @export
 plot_matrix <- function(m, row_name = "i", col_name = "j", value_name = "mij") {
   df <- matrix_to_tibble(m)
   df %>%
