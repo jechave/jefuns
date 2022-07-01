@@ -12,6 +12,8 @@
 #'
 #' @export
 mMnorm <- function(x){
-  z <- (x-min(x))/(max(x)-min(x))
+  range <- max(x) - min(x)
+  if (near(range, 0)) range <- 1
+  z <- (x-min(x)) / range
   z
 }
