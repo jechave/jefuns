@@ -7,7 +7,7 @@ plot_matrix <- function(m, row_name = "i", col_name = "j", value_name = "mij") {
     ggplot(aes(x = j, y = i, fill = mij)) +
     geom_tile() +
     scale_fill_viridis_b() +
-    theme_cowplot() +
+    theme_minimal() +
     xlab(col_name) +
     ylab(row_name) +
     labs(fill = value_name) +
