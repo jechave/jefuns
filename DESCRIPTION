@@ -9,11 +9,10 @@ Description: Miscelaneous functions frequently used by Julian Echave.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.2.0
 Imports: 
-    cowplot,
-    dplyr,
-    ggplot2,
     magrittr,
+    dplyr,
     tibble,
-    tidyr
+    tidyr,
+    ggplot2

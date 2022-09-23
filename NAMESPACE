@@ -2,6 +2,7 @@
 
 export(Kn)
 export(auc)
+export(beta_boltzmann)
 export(gsmooth)
 export(mMnorm)
 export(matrix_to_tibble)
